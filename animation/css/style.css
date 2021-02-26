@@ -1,0 +1,33 @@
+#div_animation { 
+    background-image: url(../img/sprite.jpg);
+    background-repeat: no-repeat; 
+    height: **frameHeight**px; 
+    width: **frameWidth**px;
+    position: absolute;
+    opacity: 1;
+    z-index: 2;
+}
+
+#div_shaded_relief{
+    height: **frameHeight**px; 
+    width: **frameWidth**px;
+    position: absolute;
+    z-index: 1;
+}
+
+img.shaded_relief{
+    width: **frameWidth**px;
+}
+
+#div_control{
+    padding-top: **frameHeight**px;
+}
+
+.button{
+    margin-top: 10px;
+    width: 80px;
+}
+
+#slider{
+    margin-top: 10px;
+}

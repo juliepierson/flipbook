@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Flipbook
+qgisMinimumVersion=3.0
+description=Create flipbook HTML animation by applying different styles to an input raster
+version=0.1
+author=Julie Pierson, UMR 6554 LETG, CNRS
+email=julie.pierson@univ-brest.fr
+
+about=This plugin creates an HTML animation from an input DEM raster by applying different styles to this DEM. It can be used for example to simulate a change in sea level. Styles are created according to user-defined thresholds in a CSV file. Each line in CSV corresponds to a step in the animation, and each column to a category change. User can specify 2 colors for minimal and maximal values in each category, and a color ramp is created accordingly for the category (see homepage for example). A PNG is exported for each step in animation with the corresponding QML file. An HTML file is created where you can see the animation of these PNG files.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
